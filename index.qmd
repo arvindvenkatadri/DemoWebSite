@@ -1,0 +1,27 @@
+---
+title: "DemoWebSite"
+---
+```{r}
+#| label: setup
+#| message: false
+library(tidyverse)
+```
+
+## Look at a Tibble
+```{r}
+mpg
+```
+
+## Create a Chart
+
+```{r}
+#| label: mpg scatter plot
+#| warning: false
+
+mpg %>% ggplot(aes(x = cty, y = hwy, color = cyl)) + geom_point() + geom_smooth() + theme_classic()
+
+```
+
+## Look at a Picture
+
+![R 4 Data Science, Second Edition](https://r4ds.hadley.nz/cover.jpg)

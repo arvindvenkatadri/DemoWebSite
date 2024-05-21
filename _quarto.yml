@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  title: "DemoWebSite"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+df-print: paged
+
+editor: visual
+
+lightbox: auto
+
+
+

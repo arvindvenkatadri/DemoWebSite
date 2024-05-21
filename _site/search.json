@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DemoWebSite",
+    "section": "",
+    "text": "library(tidyverse)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#look-at-a-tibble",
+    "href": "index.html#look-at-a-tibble",
+    "title": "DemoWebSite",
+    "section": "Look at a Tibble",
+    "text": "Look at a Tibble\n\nmpg"
+  },
+  {
+    "objectID": "index.html#create-a-chart",
+    "href": "index.html#create-a-chart",
+    "title": "DemoWebSite",
+    "section": "Create a Chart",
+    "text": "Create a Chart\n\nmpg %&gt;% ggplot(aes(x = cty, y = hwy, color = cyl)) + geom_point() + geom_smooth() + theme_classic()"
+  },
+  {
+    "objectID": "index.html#look-at-a-picture",
+    "href": "index.html#look-at-a-picture",
+    "title": "DemoWebSite",
+    "section": "Look at a Picture",
+    "text": "Look at a Picture\n\n\n\nR 4 Data Science, Second Edition\n\n\n\n\n\nR 4 Data Science, Second Edition"
+  }
+]
